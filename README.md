@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # AI-Parametric-Gig-Insurance
 🛡 AI-Powered Parametric Income Protection for Gig Workers
 ------------------------------------------------------------------------------------------------------------------------
                                              📌 Problem Statement
+=======
+🛡 AI-Powered Parametric Income Protection for Gig Workers
+📌 Problem Statement
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 
 India’s grocery and Q-commerce delivery partners (Zepto/Blinkit-type workers) earn on a daily and weekly basis depending on completed deliveries. Their income is highly dependent on external environmental and social conditions.
 
@@ -11,6 +16,7 @@ During such disruptions, delivery partners can lose 20–30% of their weekly inc
 
 This project proposes an AI-powered parametric insurance platform that provides affordable weekly income protection and automatically triggers payouts when predefined disruption conditions are met.
 
+<<<<<<< HEAD
                                 **👤 Persona: Grocery / Q-Commerce Delivery Partner**
 
 Age: 24+ 
@@ -37,23 +43,88 @@ Why Weekly?
 
 Gig workers operate on weekly earnings.
 Aligns with their cash flow cycle.
+=======
+👤 Persona: Grocery / Q-Commerce Delivery Partner
+
+Age: 22–35 years
+
+Work Type: Full-time delivery partner
+
+Income Model: Paid per delivery
+
+Average Weekly Income: ₹2,500 – ₹3,500
+
+Works 6–7 days per week
+
+Key Challenges
+
+Income instability
+
+Weather-dependent earnings
+
+No guaranteed minimum income
+
+No protection against income loss
+
+Weekly financial commitments (rent, groceries, EMIs)
+
+Insurance Need
+
+Affordable weekly premium
+
+Simple onboarding
+
+Automatic payout
+
+No paperwork
+
+Fast claim settlement
+
+💰 Weekly Pricing Model
+Why Weekly?
+
+Gig workers operate on weekly earnings.
+
+Aligns with their cash flow cycle.
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Affordable and flexible.
 
 Assumptions
 
 Average Weekly Income = ₹3,000
+<<<<<<< HEAD
 Coverage = 40% income protection
+=======
+
+Coverage = 40% income protection
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Base Premium Rate = ₹50
 
 Risk Score (AI-Based)
 
 Each delivery zone receives a Risk Score (0–1) based on:
+<<<<<<< HEAD
 Rainfall frequency
 Temperature trends
 AQI levels
 Past disruption events
 
 Premium Formula:
+=======
+
+Rainfall frequency
+
+Temperature trends
+
+AQI levels
+
+Past disruption events
+
+Premium Formula
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Weekly Premium = Base Rate × Risk Score × Coverage Factor
 
 Example:
@@ -61,11 +132,18 @@ Example:
 Base Rate = ₹50
 Risk Score = 0.6
 Coverage Factor = 1.2
+<<<<<<< HEAD
 Base Rate x Risk Score x Coverage Factor = Premium 
 50 x 0.6 x 1.2 = 36
 Premium = ₹36 per week
 
                                                 **⚡ Parametric Triggers**
+=======
+
+Premium = ₹36 per week
+
+⚡ Parametric Triggers
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 
 A parametric trigger is a predefined measurable condition. When the threshold is crossed, payout is automatically activated without manual claim filing.
 
@@ -102,24 +180,43 @@ Reduced outdoor activity
 Action:
 System assumes 2 hours of income loss and auto-payout
 
+<<<<<<< HEAD
                                         **🤖 AI & Fraud Detection Integration**
 1️⃣ AI for Risk Assessment
 
 Predicts disruption probability
 Generates zone-based Risk Score
 Enables dynamic weekly premium calculation
+=======
+🤖 AI & Fraud Detection Integration
+1️⃣ AI for Risk Assessment
+
+Predicts disruption probability
+
+Generates zone-based Risk Score
+
+Enables dynamic weekly premium calculation
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Uses regression or ML-based prediction models
 
 2️⃣ AI for Predictive Disruption Modeling
 
 Forecasts upcoming week risk
+<<<<<<< HEAD
 Adjusts pricing dynamically
+=======
+
+Adjusts pricing dynamically
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Estimates claim volume
 
 3️⃣ Fraud Detection Mechanisms
 Location Validation
 
 GPS compared with disruption zone
+<<<<<<< HEAD
 Weather Data Cross-Verification
 Claim validated with official weather API
 Activity Check
@@ -132,20 +229,56 @@ Outlier detection
 Fraud Risk Score (Low/Medium/High)
 
                                              **🔄 Application Workflow**
+=======
+
+Weather Data Cross-Verification
+
+Claim validated with official weather API
+
+Activity Check
+
+Ensure no deliveries completed during claimed hours
+
+Duplicate Claim Detection
+
+Prevent repeated payouts for same event
+
+AI-Based Anomaly Detection
+
+Isolation Forest
+
+Outlier detection
+
+Fraud Risk Score (Low/Medium/High)
+
+🔄 Application Workflow
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 
 1️⃣ User Registration
 
 OTP verification
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Enter delivery zone & income
 
 2️⃣ Risk Profiling
 
 AI calculates Risk Score
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Weekly premium displayed
 
 3️⃣ Policy Activation
 
 User pays weekly premium
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Policy active for 7 days
 
 4️⃣ Real-Time Monitoring
@@ -159,17 +292,28 @@ If threshold crossed → Claim auto-generated
 6️⃣ Fraud Detection
 
 Location validation
+<<<<<<< HEAD
 Activity check
+=======
+
+Activity check
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Anomaly detection
 
 7️⃣ Instant Payout
 
 Mock UPI / Razorpay sandbox
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 User notified of credited amount
 
 8️⃣ Dashboards
 
 Worker Dashboard:
+<<<<<<< HEAD
 Active coverage
 Premium paid
 Claims history
@@ -237,28 +381,76 @@ A nationwide gig-worker parametric protection platform
 
 Frontend:
 React.js
+=======
+
+Active coverage
+
+Premium paid
+
+Claims history
+
+Payout summary
+
+Admin Dashboard:
+
+Total workers
+
+Premium collected
+
+Payout statistics
+
+Fraud alerts
+
+Predictive analytics
+
+🛠 Tech Stack
+
+Frontend:
+
+React.js
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Chart library (Recharts / D3.js)
 
 Backend:
 
 Node.js
+<<<<<<< HEAD
 Express.js
+=======
+
+Express.js
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 MongoDB
 
 AI Service:
 
 Python
+<<<<<<< HEAD
 Scikit-learn
+=======
+
+Scikit-learn
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 FastAPI
 
 APIs:
 
 Weather API (real or mock)
+<<<<<<< HEAD
 AQI API (real or mock)
+=======
+
+AQI API (real or mock)
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Mock zone status API
 
 Payment gateway (Razorpay test mode / sandbox)
 
+<<<<<<< HEAD
                                            ** 📅 6-Week Development Plan**
 Phase 1 – Ideation & Foundation
 
@@ -266,24 +458,54 @@ Define persona
 Finalize pricing model
 Define parametric triggers
 Design architecture
+=======
+📅 6-Week Development Plan
+Phase 1 – Ideation & Foundation
+
+Define persona
+
+Finalize pricing model
+
+Define parametric triggers
+
+Design architecture
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Create GitHub repository
 
 Phase 2 – Automation & Protection
 
 Build registration system
+<<<<<<< HEAD
 Implement dynamic premium calculation
 Integrate trigger monitoring
+=======
+
+Implement dynamic premium calculation
+
+Integrate trigger monitoring
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Auto-claim generation
 
 Phase 3 – Scale & Optimize
 
 Implement fraud detection
+<<<<<<< HEAD
 Integrate mock payout system
 Build dashboards
+=======
+
+Integrate mock payout system
+
+Build dashboards
+
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
 Add predictive analytics
 
 Final demo video and pitch deck
 
+<<<<<<< HEAD
                                      **🔐 Gig Worker Trust Score System**
 
 To further strengthen fraud prevention and create a fair ecosystem, the platform introduces a Gig Worker Trust Score.
@@ -481,3 +703,8 @@ Workers receive instant payout notifications in the dashboard.
                                                 **🎯 Project Objective**
 
 To create a scalable, AI-powered, weekly-priced parametric insurance platform that protects gig workers from income loss due to uncontrollable external disruptions, while ensuring automation, transparency, and fraud prevention.
+=======
+🎯 Project Objective
+
+To create a scalable, AI-powered, weekly-priced parametric insurance platform that protects gig workers from income loss due to uncontrollable external disruptions, while ensuring automation, transparency, and fraud prevention
+>>>>>>> 41f10345b9b9f80fd7c1652c8b50e8308eb854fa
