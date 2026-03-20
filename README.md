@@ -1,7 +1,9 @@
 # AI-Parametric-Gig-Insurance 
-🛡 AI-Powered Parametric Income Protection for Gig  Workers                                                                   
+🛡 AI-Powered Parametric Income Protection for Gig  Workers                            
+
+
                                  ** 📌 Problem Statement ** 
-                                 
+
 India’s grocery and Q-commerce delivery partners (Zepto/Blinkit-type workers) earn on a daily and weekly basis depending on completed deliveries. Their income is highly dependent on external environmental and social conditions.
 
 Extreme weather conditions such as heavy rain, extreme heat, and severe pollution can significantly reduce deliveries or make outdoor work unsafe. Sudden zone closures or curfews can also completely stop operations. 
