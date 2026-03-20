@@ -1,0 +1,25 @@
+{
+  "name": "ai-parametric-gig-insurance-main",
+  "version": "1.0.0",
+  "description": "🛡 AI-Powered Parametric Income Protection for Gig  Workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya-dav/AI_Parametric_Gig_Insurance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya-dav/AI_Parametric_Gig_Insurance/issues"
+  },
+  "homepage": "https://github.com/Divya-dav/AI_Parametric_Gig_Insurance#readme",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
